@@ -1,24 +1,38 @@
 <?php
 
 class AppController{
-
+    /**
+     * Récupére les infos
+     */
     public function index(){
 
     }
-
-    public function show(){
+    /**
+     * Récupère un item par son ID
+     * @param  [type] $id [description]
+     * @return [type]     [description]
+     */
+    public function show($id){
 
     }
-
+    /**
+     * Ajouter un item
+     */
     public function add(){
 
     }
-
-    public function edit(){
+    /**
+     * Editer un item
+     * @return [type] [description]
+     */
+    public function edit($id){
 
     }
-
-    public function delete(){
+    /**
+     * Supprimer un item
+     * @return [type] [description]
+     */
+    public function delete($id){
     }
 
 }
